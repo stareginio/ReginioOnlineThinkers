@@ -7,6 +7,11 @@
     font-size: 2em;
 }
 
+.head-size-3 {
+    margin-left: -8px;
+    color: black;
+}
+
 .navbar-custom {
     margin-top: 3rem;
     font-size: 1em;
@@ -180,6 +185,11 @@
         margin-top: -1.5rem;
         font-size: 1.25em;
     }
+    
+    .head-size-3 {
+        margin-left: -6px;
+        color: black;
+    }
 
     .navbar-custom {
         margin-top: 1rem;
@@ -257,6 +267,11 @@
     .head-size-2 {
         margin-top: -1.25rem;
         font-size: 1em;
+    }
+    
+    .head-size-3 {
+        margin-left: -4px;
+        color: black;
     }
     
     .navbar-custom {
