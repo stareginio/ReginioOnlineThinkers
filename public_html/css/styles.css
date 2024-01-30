@@ -1,0 +1,333 @@
+.head-size-1 {
+    font-size: 1.5em;
+}
+
+.head-size-2 {
+    margin-top: -1.5rem;
+    font-size: 2em;
+}
+
+.navbar-custom {
+    margin-top: 3rem;
+    font-size: 1em;
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+.border-md-right {
+    border-right: 1px solid white;
+    vertical-align: middle;
+}
+
+.row {
+    font-size: 6em;
+    margin-left: 0.5em;
+}
+
+.text-1 {
+    height: 40vw;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-1-bold {
+    font-weight: bold;
+    margin-bottom: -0.5em;
+}
+
+.font {
+    font-family: "Arial", Monaco, monospace;
+}
+
+.limegreen {
+    color: #98cb00;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white
+}
+
+.alignleft {
+    text-align: left;
+    float: left;
+}
+
+.alignright {
+    text-align: right;
+    float: right;
+}
+
+.container-img-1 {
+    position: relative;
+    display: flex;
+    height: 40vw;
+}
+
+.img-1 {
+    position: absolute;
+    height: 40vw;
+    width: 100%;
+}
+
+.rect-1 {
+    height: 40vw;
+    width: 30%;
+    position: absolute;
+    background-color: #98cb00;
+    opacity: 0.8;
+}
+
+.bottom-body {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 40vw;
+    width: 100%;
+}
+
+.container-bottom-body {
+    flex: 0 0 100%;
+    width: 60%;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.bottom-text-1 {
+    margin-bottom: -0.25em;
+    font-size: 2em;
+    color: #98cb00;
+}
+
+.bottom-text-2 {
+    margin-bottom: -0.6em;
+    font-size: 1.5em;
+    color: black;
+}
+
+.bottom-text-3 {
+    margin-top: -1.25em;
+    font-size: 0.75em;
+    color: black;
+    text-align: justify;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.container-img-2, .container-img-3 {
+    position: relative;
+    flex: 0 0 48%;
+    width: 38%;
+    align-self: flex-end;
+}
+
+.container-img-2 {
+    margin-bottom: 1vh;
+}
+
+.container-img-3 {
+    margin-top: 1vh;
+}
+
+.img-2-3 {
+    position: absolute;
+    height: 18vw;
+    width: 100%;
+}
+
+.rect-2-3 {
+    height: 5vw;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #98cb00;
+}
+
+.text-2-3 {
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    font-size: 1.75em;
+    margin-top: 0.75vh;
+    margin-right: 5vh;
+}
+
+.custom-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.footer-text {
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+    .head-size-1 {
+        font-size: 0.75em;
+    }
+    
+    .head-size-2 {
+        margin-top: -1.5rem;
+        font-size: 1.25em;
+    }
+
+    .navbar-custom {
+        margin-top: 1rem;
+        font-size: 0.75em;
+    }
+    
+    .footer-text {
+        font-size: 0.5em;
+    }
+    
+    .text-1 {
+        height: 44vw;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .row {
+        font-size: 2.25em;
+        margin-left: 0.25em;
+    }
+    
+    .container-img-2, .container-img-3 {
+        position: relative;
+        flex: 0 0 45%;
+        width: 38%;
+        align-self: flex-end;
+    }
+
+    .container-img-2 {
+        margin-bottom: 1vh;
+    }
+
+    .container-img-3 {
+        margin-top: 1vh;
+    }
+    
+    .bottom-text-1 {
+        margin-bottom: -0.25em;
+        font-size: 1.25em;
+        color: #98cb00;
+    }
+
+    .bottom-text-2 {
+        margin-bottom: -0.6em;
+        font-size: 0.75em;
+        color: black;
+    }
+
+    .bottom-text-3 {
+        margin-top: -1.25em;
+        font-size: 0.6em;
+        color: black;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    .text-2-3 {
+        display: flex;
+        justify-content: right;
+        font-weight: bold;
+        font-size: 0.75em;
+        margin-top: 0.25vh;
+        margin-right: 2.5vh;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .head-size-1 {
+        font-size: 0.5em;
+    }
+    
+    .head-size-2 {
+        margin-top: -1.25rem;
+        font-size: 1em;
+    }
+    
+    .navbar-custom {
+        margin-top: 1rem;
+        font-size: 0.5em;
+    }
+    
+    .footer-text {
+        font-size: 0.5em;
+    }
+    
+    .text-1 {
+        height: 46vw;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row {
+        font-size: 1.5em;
+        margin-left: 0.25em;
+    }
+    
+    .container-img-2, .container-img-3 {
+        position: relative;
+        flex: 0 0 43%;
+        width: 38%;
+        align-self: flex-end;
+    }
+
+    .container-img-2 {
+        margin-bottom: 1vh;
+    }
+
+    .container-img-3 {
+        margin-top: 1vh;
+    }
+    
+    .bottom-text-1 {
+        margin-bottom: -0.25em;
+        font-size: 1em;
+        color: #98cb00;
+    }
+
+    .bottom-text-2 {
+        margin-bottom: -0.6em;
+        font-size: 0.5em;
+        color: black;
+    }
+
+    .bottom-text-3 {
+        margin-top: -1.25em;
+        font-size: 0.5em;
+        color: black;
+        text-align: justify;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    .text-2-3 {
+        display: flex;
+        justify-content: right;
+        font-weight: bold;
+        font-size: 0.5em;
+        margin-top: 0.25vh;
+        margin-right: 2.5vh;
+    }
+}
+
+/*
+References:
+https://stackoverflow.com/questions/19026884/flexbox-center-horizontally-and-vertically
+*/
